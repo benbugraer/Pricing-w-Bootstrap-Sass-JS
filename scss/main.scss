@@ -1,0 +1,221 @@
+@import "config";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    background: $background-color;
+
+    h1 {
+        font-size: 2rem;
+    }
+    
+    a {
+        color: #333;
+        text-decoration: none;
+    }
+}
+// Navbar Styling
+.navbar {
+    background: $main-color;
+
+    &-item {
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+        & .nav-link {
+            color: $light-color;
+            font-weight: bold;
+        }
+    }
+    &-brand {
+        margin-top: 14px;
+        color: $light-color;
+        font-weight: 900;
+    }
+}
+// BTN Utilities Classes
+.btn-main {
+    display: inline-block;
+    width: 100%;
+    transition: all 0.3s linear;
+    color: $main-color;
+    border: 1px solid $main-color;
+}
+.btn-main:hover {
+    background: $main-color;
+    color: $light-color;
+}
+// Card Container Styling
+.card-container {
+    transition: transform 0.3s linear;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+.price {
+    color: coral;
+    font-size: 2.75rem;
+}
+
+.card-header {
+    background: coral;
+    color: #f2f2f2;
+}
+.fa-check {
+    color: rgb(37, 215, 37);
+}
+// Social Media Styling 
+.social-media {
+    
+    & .fa-youtube {
+        background: $youtube-color;
+        border: 2px solid $youtube-color;
+        border-radius: 50%;
+        height: 38px;
+        width: 37px;
+        color: $light-color;
+        line-height: 35px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s linear;
+    }
+    & .fa-youtube:hover {
+        background: $light-color;
+        color: $youtube-color;
+    }
+    & .fa-twitter {
+        background: $twitter-color;
+        border: 2px solid $twitter-color;
+        border-radius: 50%;
+        height: 38px;
+        width: 37px;
+        color: $light-color;
+        line-height: 35px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s linear;
+    }
+    & .fa-twitter:hover {
+        background: $light-color;
+        color: $twitter-color;
+    }
+    & .fa-instagram {
+        background: $instagram-color;
+        border: 2px solid $instagram-color;
+        border-radius: 50%;
+        height: 38px ;
+        width: 37px;
+        color: $light-color;
+        line-height: 35px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s linear;
+    }
+    & .fa-instagram:hover {
+        background: $light-color;
+        color: $instagram-color;
+    }
+    & .fa-linkedin {
+        background: $linkedin-color;
+        border: 2px solid $linkedin-color;
+        border-radius: 50%;
+        height: 38px;
+        width: 37px;
+        color: $light-color;
+        line-height: 35px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s linear;
+    }
+    & .fa-linkedin:hover {
+        background: $light-color;
+        color: $linkedin-color;
+    }
+    & .fa-github {
+        background: $github-color;
+        border: 2px solid $github-color;
+        border-radius: 50%;
+        height: 38px;
+        width: 37px;
+        color: $light-color;
+        line-height: 35px;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.5s linear;
+    }
+    & .fa-github:hover {
+        background: $light-color;
+        color: $github-color;
+    }
+}
+// Yazılım Dilleri Styling
+.fa {
+    &-html5 {
+        color: $html-color;
+        margin-left: 15px;
+    }
+    &-css3-alt {
+        color: $css-color;
+        margin-left: 15px;
+    }
+    &-sass {
+        color: $sass-color;
+        margin-left: 15px;
+    }
+    &-bootstrap {
+        color: $bootstrap-color;
+        margin-left: 15px;
+    }
+    &-square-js {
+        color: $javascript-color;
+        margin-left: 15px;
+    }
+    &-react {
+        color: $react-color;
+        margin-left: 15px;
+    }
+}
+.bg {
+    &-html {
+        background: $html-color;
+    }
+    &-css {
+        background: $css-color;
+    }
+    &-sass {
+        background: $sass-color;
+    }
+    &-bootstrap {
+        background: $bootstrap-color;
+    }
+    &-javascript {
+        background: $javascript-color;
+    }
+    &-react {
+        background: $react-color;
+    }
+}
+// Progress Bar
+.progress {
+    border-radius: 50px;
+    height: 40px;
+}
+// Main Heading
+.main-heading {
+    color: $main-color;
+}
+// Text Reset Hover
+.lead-1:hover {
+    color: $main-color;
+    transition: all 0.2s linear;
+}

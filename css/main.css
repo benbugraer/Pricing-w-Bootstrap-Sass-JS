@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 18px;
+  background: #f2f2f2;
+}
+body h1 {
+  font-size: 2rem;
+}
+body a {
+  color: #333;
+  text-decoration: none;
+}
+
+.navbar {
+  background: coral;
+}
+.navbar-item {
+  transition: all 0.2s ease-in-out;
+}
+.navbar-item:hover {
+  transform: scale(1.1);
+}
+.navbar-item .nav-link {
+  color: #fff;
+  font-weight: bold;
+}
+.navbar-brand {
+  margin-top: 14px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.btn-main {
+  display: inline-block;
+  width: 100%;
+  transition: all 0.3s linear;
+  color: coral;
+  border: 1px solid coral;
+}
+
+.btn-main:hover {
+  background: coral;
+  color: #fff;
+}
+
+.card-container {
+  transition: transform 0.3s linear;
+}
+.card-container:hover {
+  cursor: pointer;
+}
+
+.price {
+  color: coral;
+  font-size: 2.75rem;
+}
+
+.card-header {
+  background: coral;
+  color: #f2f2f2;
+}
+
+.fa-check {
+  color: rgb(37, 215, 37);
+}
+
+.social-media .fa-youtube {
+  background: #FF0000;
+  border: 2px solid #FF0000;
+  border-radius: 50%;
+  height: 38px;
+  width: 37px;
+  color: #fff;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.social-media .fa-youtube:hover {
+  background: #fff;
+  color: #FF0000;
+}
+.social-media .fa-twitter {
+  background: #00acee;
+  border: 2px solid #00acee;
+  border-radius: 50%;
+  height: 38px;
+  width: 37px;
+  color: #fff;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.social-media .fa-twitter:hover {
+  background: #fff;
+  color: #00acee;
+}
+.social-media .fa-instagram {
+  background: #e1306c;
+  border: 2px solid #e1306c;
+  border-radius: 50%;
+  height: 38px;
+  width: 37px;
+  color: #fff;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.social-media .fa-instagram:hover {
+  background: #fff;
+  color: #e1306c;
+}
+.social-media .fa-linkedin {
+  background: #0072b1;
+  border: 2px solid #0072b1;
+  border-radius: 50%;
+  height: 38px;
+  width: 37px;
+  color: #fff;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.social-media .fa-linkedin:hover {
+  background: #fff;
+  color: #0072b1;
+}
+.social-media .fa-github {
+  background: #333;
+  border: 2px solid #333;
+  border-radius: 50%;
+  height: 38px;
+  width: 37px;
+  color: #fff;
+  line-height: 35px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
+.social-media .fa-github:hover {
+  background: #fff;
+  color: #333;
+}
+
+.fa-html5 {
+  color: #e34c26;
+  margin-left: 15px;
+}
+.fa-css3-alt {
+  color: #264de4;
+  margin-left: 15px;
+}
+.fa-sass {
+  color: #cd6799;
+  margin-left: 15px;
+}
+.fa-bootstrap {
+  color: #563d7c;
+  margin-left: 15px;
+}
+.fa-square-js {
+  color: #f0db4f;
+  margin-left: 15px;
+}
+.fa-react {
+  color: #61dbfb;
+  margin-left: 15px;
+}
+
+.bg-html {
+  background: #e34c26;
+}
+.bg-css {
+  background: #264de4;
+}
+.bg-sass {
+  background: #cd6799;
+}
+.bg-bootstrap {
+  background: #563d7c;
+}
+.bg-javascript {
+  background: #f0db4f;
+}
+.bg-react {
+  background: #61dbfb;
+}
+
+.progress {
+  border-radius: 50px;
+  height: 40px;
+}
+
+.main-heading {
+  color: coral;
+}
+
+.lead-1:hover {
+  color: coral;
+  transition: all 0.2s linear;
+}
